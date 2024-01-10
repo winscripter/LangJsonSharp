@@ -31,7 +31,7 @@ using LangJsonSharp;
 
 var mlm = new MultipleLanguageManager("App"); // prefix all *language*.json files with App -> App.*language*.json
 Console.WriteLine(mlm["Greeting"]);
-// The program produces following outputs depending on the system language:
+// The program produces following outputs depending on the system language or UI culture of the current thread:
 //     - Hello! - if installed language is English (US)
 //     - Guten tag! - if installed language is German
 //     - Hola! - if installed language is Spanish
