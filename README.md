@@ -1,5 +1,5 @@
 # LangJsonSharp
-An incredibly small multilingual resource builder using JSON files on disk.
+An incredibly small and simple multilingual resource builder using JSON files on disk.
 
 App.en-US.json:
 ```json
